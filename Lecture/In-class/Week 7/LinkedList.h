@@ -76,7 +76,7 @@ class LinkedList {
         //returns: a pointer to the node with the target data or nullptr
         Node* findNode(int target){
             for(Node* current = head; current != nullptr; current = current -> next){
-                //if value is found, return the current node
+                //if value is found, returfn the current node
                 if(current -> data == target){
                     return current;
                 }
@@ -87,7 +87,8 @@ class LinkedList {
             Node* temp = new Node();
             Node* targetNode = findNode(target);
             temp = head;
-            head = temp -> next;
+            head = temp -> next; 
+            
             for(Node* temp = head; temp != nullptr; temp = temp -> next){
                 if(temp -> next == targetNode){
                     temp -> next = targetNode -> next;
