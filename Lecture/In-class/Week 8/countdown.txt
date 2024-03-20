@@ -1,0 +1,15 @@
+we want to countdown from n to zero
+
+First, identify the simplest version of this problem
+    just start witn n = 0
+coutndown(0) will be "0 done"
+
+simplest version has a name - BASE CASE
+    We can complete this without iteration (single step)
+
+RECURSIVE CASE 
+    How can we reach BASE CASE usign a single step and call the BASE CASE
+
+Consider countdown(start = 1)
+    STEP 1: Complete one step of solution (here, print "1")
+    STEP 2: Do the rest (countdown(0) <=== BASE CASE)
