@@ -1,0 +1,22 @@
+Notes for Tree Structures
+
+ROOT - the address of the entry point for the tree
+CHILDREN - the nodes downstream from any current nodes
+        - each node in a binary tree can have ***up to 2 children***
+LEVEL - how many connections are needed to reach a node from root
+HEIGHT - what is the maximum number of connections needed
+        to reach ANY node in the tree (alt. the max LEVEL of the tree)
+LEAF NODE - a node with no children
+
+
+Binary Tree
+    Restriction - nodes can only have up to 2 childrenn
+
+Binary Search Tree
+    Restrictions - binary tree
+                 - child nodes on the left must be less than parent
+                 - child nodes on the right must be greater than parent
+
+
+Build a Binary Search Tree
+    - Add in nodes from a list in order of the list
